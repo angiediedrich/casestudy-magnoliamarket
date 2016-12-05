@@ -112,6 +112,7 @@ body {
 
 img {
     max-width: 100%;
+    text-align: center;
 }
 
 .header {
@@ -140,7 +141,7 @@ img {
 
 .main-nav a {
     text-decoration: none; 
-    color: #000;
+    color: #fff;
 }
 
 .main-nav a:hover {
@@ -149,6 +150,20 @@ img {
 
 .main-nav {
     display: inline;
+}
+
+/*Jumbotron*/
+.jumbotron-content {
+    max-width: 100%;
+}
+
+/*Page-Section*/
+.page-section {
+    
+}
+/*Section Headers*/
+.page-section-header {
+    padding: 1em;
 }
 
 .market-favorites {
@@ -160,19 +175,6 @@ img {
     height: 20em;
     float: right;
 }
-
-/*Jumbotron*/
-.jumbotron-content {
-    max-width: 100%;
-}
-
-/*Section Headers*/
-.market-favorites .section-header {
-    text-align: center;
-}
-
-
-
 
 
 
