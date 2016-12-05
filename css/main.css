@@ -161,6 +161,7 @@ img {
 .page-section {
     width: 980px;
     margin: auto;
+    border-bottom: 1px solid #ddd;
 }
 
 /*Section Headers*/
