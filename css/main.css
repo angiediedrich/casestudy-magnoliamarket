@@ -153,29 +153,48 @@ img {
 }
 
 /*Jumbotron*/
-.jumbotron-content {
-    max-width: 100%;
+.jumbotron-bg {
+    width: 100%;
 }
 
 /*Page-Section*/
 .page-section {
-    
+    width: 980px;
+    margin: auto;
 }
+
 /*Section Headers*/
-.page-section-header {
+.section-header {
+    padding: 1em;
+    width: 18.75em;
+    margin: auto;
+}
+
+.favorites-thumb {
+    position: relative;
+    width: 33%;
+    float: left;
     padding: 1em;
 }
 
-.market-favorites {
+.clearfix a {
+    font-size: .75em;
+    color: #000;
+}
+
+.favorites-thumb:hover {
+    background-color: hsla(0, 0%, 0%, 0.5);
+}
+
+.favorites-thumb img {
     position: relative;
+    z-index: -10;
 }
 
-.favorites-image {
-    width: 20em;
-    height: 20em;
-    float: right;
+.favorites-thumb:hover {
+    color: #fff;
+    background-color: hsla(0, 100%, 100%, 0.75);
 }
-
 
 
 
