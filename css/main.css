@@ -96,7 +96,6 @@ textarea {
    ========================================================================== */
 html {
     box-sizing: border-box;
-    color: #fcfcf8;
 }
 
 *, *:before, *:after {
@@ -104,10 +103,10 @@ html {
 }
 
 body {
-    padding: 1em 0;
     background-color: #fcfcf8;
     font-family: "Open Sans", Sans-serif;
     font-style: normal;
+    letter-spacing: 2px;
 }
 
 img {
@@ -123,25 +122,24 @@ img {
 
 /*Main-Navigation*/
 .main-nav {
-    font-size: .75em;
-    margin: .5em 0;
+    font-size: .785em;
+    border: red solid 1px;
+    margin: 0;
 }
 
 .main-nav ul {
     list-style-type: none;
     text-align: center;
-    padding: 0;
-    margin: 0;
 }
 
 .main-nav li {
     display: inline-block;
-    padding: 1em;
+    padding: 0 1em;
 }
 
 .main-nav a {
     text-decoration: none; 
-    color: #fff;
+    color: #000;
 }
 
 .main-nav a:hover {
@@ -152,9 +150,14 @@ img {
     display: inline;
 }
 
+.main-nav li:not(:last-child) {
+    border-right: solid 1px #000
+}
+
 /*Jumbotron*/
-.jumbotron-bg {
+.jumbotron {
     width: 100%;
+    height: 50%;
 }
 
 /*Page-Section*/
@@ -167,7 +170,7 @@ img {
 /*Section Headers*/
 .section-header {
     padding: 1em;
-    width: 18.75em;
+    width: 27em;
     margin: auto;
 }
 
