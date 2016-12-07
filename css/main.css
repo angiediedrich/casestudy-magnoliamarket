@@ -170,35 +170,44 @@ img {
 /*Section Headers*/
 .section-header {
     padding: 1em;
-    width: 27em;
+    width: 26em;
     margin: auto;
 }
 
 .favorites-thumb {
     position: relative;
     width: 33%;
+    height: 100%;
     float: left;
     padding: 1em;
 }
 
-.clearfix a {
+.favorites a {
     font-size: .75em;
     color: #000;
 }
 
-.favorites-thumb:hover {
-    background-color: hsla(0, 0%, 0%, 0.5);
+.favorites h3 {
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    padding-top: 1em;
+    margin: 0;
 }
 
-.favorites-thumb img {
-    position: relative;
-    z-index: -10;
+.favorites p {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #888;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
 }
 
-.favorites-thumb:hover {
-    color: #fff;
-    background-color: hsla(0, 100%, 100%, 0.75);
+article img:hover {
+    opacity: 0.6;
 }
+
 
 
 
