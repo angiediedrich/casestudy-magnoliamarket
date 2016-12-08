@@ -114,6 +114,10 @@ img {
     text-align: center;
 }
 
+a {
+    color: #000;
+}
+
 .main-header {
     text-align: center;
     border-bottom: 1px solid #ddd;
@@ -167,20 +171,18 @@ img {
 }
 
 /*Section Headers*/
-.article-header {
-    padding: 1em;
-    width: 26em;
+.section-header {
+    padding: 2em 0 0 0;
+    width: 37%;
     margin: auto;
-    border-top: 1px solid #ddd;
 }
 
 /*Favorites Section*/
 .favorites-thumb {
-    position: relative;
-    width: 33.33%;
+    width: 33%;
     height: 100%;
     float: left;
-    padding-right: 1.5em;
+    padding: 4em 1.3em 0 0;
 }
 
 .favorites a {
@@ -210,6 +212,11 @@ img {
 }
 
 /*Our Story Section*/
+.about {
+    border: 1px solid red;
+    margin: 2em auto;
+    width: 62.5em;
+}
 
 .about a {
     font-family: Georgia, Times, "Times New Roman", serif;
@@ -219,10 +226,37 @@ img {
     text-align: center;
     text-decoration: none;
     letter-spacing: 1px;
-    color: #000;
 }
 
 .about p {
+    font-size: .9em;
+    font-weight: normal;
+    letter-spacing: normal;
+}
+
+/*Blog Section*/
+.blog {
+    border-top: 1px solid #ddd;
+    margin: 2em auto;
+    border: 1px solid red;
+    width: 62.5em;
+}
+
+.blog img {
+    width: 100%;
+}
+
+.blog a {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: lighter;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.blog p {
     font-size: .9em;
     font-weight: normal;
     letter-spacing: normal;
