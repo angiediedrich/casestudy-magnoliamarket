@@ -114,7 +114,7 @@ img {
     text-align: center;
 }
 
-.header {
+.main-header {
     text-align: center;
     border-bottom: 1px solid #ddd;
     padding: 2em 0 1em 0;
@@ -162,13 +162,12 @@ img {
 
 /*Page-Section*/
 .page-section {
-    width: 62em;
-    margin: 20em auto;
-    border: red solid 1px;
+    margin: auto;
+    width: 62.5em;
 }
 
 /*Section Headers*/
-.section-header {
+.article-header {
     padding: 1em;
     width: 26em;
     margin: auto;
@@ -178,10 +177,10 @@ img {
 /*Favorites Section*/
 .favorites-thumb {
     position: relative;
-    width: 33%;
+    width: 33.33%;
     height: 100%;
     float: left;
-    padding: 1em;
+    padding-right: 1.5em;
 }
 
 .favorites a {
@@ -212,7 +211,7 @@ img {
 
 /*Our Story Section*/
 
-.section a {
+.about a {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: lighter;
     font-size: 1.2em;
@@ -223,7 +222,7 @@ img {
     color: #000;
 }
 
-.section p {
+.about p {
     font-size: .9em;
     font-weight: normal;
     letter-spacing: normal;
@@ -239,7 +238,6 @@ footer {
     width: 980px;
     margin: auto;
     padding-top: 12em;
-    border: red solid 1px;
 }
 
 .nav-section {
