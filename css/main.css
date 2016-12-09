@@ -174,7 +174,7 @@ a {
 .section-header {
     padding: 2em 0 0 0;
     width: 37%;
-    margin: auto;
+    margin: 0 auto 2.5em auto;
 }
 
 /*Favorites Section*/
@@ -213,53 +213,83 @@ a {
 
 /*Our Story Section*/
 .about {
-    border: 1px solid red;
+    overflow: hidden;
+    border-top: 1px solid #ddd;
     margin: 2em auto;
     width: 62.5em;
 }
 
+.about article {
+    float: left;
+    width: 30%;
+    padding: 0 1.6em 2em 1.6em;
+}
+
+.about aside {
+    float: right;
+    width: 70%;
+    padding: 0 1em;
+}
+
 .about a {
+    text-decoration: none;
+}
+
+.about a h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: lighter;
-    font-size: 1.2em;
+    font-size: 1.9em;
     text-transform: uppercase;
     text-align: center;
-    text-decoration: none;
     letter-spacing: 1px;
 }
 
 .about p {
-    font-size: .9em;
+    font-size: .8em;
     font-weight: normal;
-    letter-spacing: normal;
+    letter-spacing: .5px;
+    line-height: 1.5em;
 }
 
 /*Blog Section*/
+/*Our Story Section*/
 .blog {
+    overflow: hidden;
     border-top: 1px solid #ddd;
     margin: 2em auto;
-    border: 1px solid red;
     width: 62.5em;
 }
 
-.blog img {
-    width: 100%;
+.blog article {
+    float: right;
+    width: 30%;
+    padding: 0 1.6em 2em 1.6em;
+}
+
+.blog aside {
+    float: left;
+    width: 70%;
+    padding: 0 1em;
 }
 
 .blog a {
+    text-decoration: none;
+}
+
+.blog a h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: lighter;
-    font-size: 1.2em;
+    font-size: 1.9em;
     text-transform: uppercase;
     text-align: center;
-    text-decoration: none;
     letter-spacing: 1px;
 }
 
 .blog p {
-    font-size: .9em;
+    font-size: .8em;
     font-weight: normal;
-    letter-spacing: normal;
+    letter-spacing: .5px;
+    line-height: 1.5em;
 }
 
 /*Footer*/
