@@ -118,6 +118,7 @@ a {
     color: #000;
 }
 
+/*Main-header*/
 .main-header {
     text-align: center;
     border-bottom: 1px solid #ddd;
@@ -291,18 +292,6 @@ a {
     line-height: 1.5em;
 }
 
-/*Learn More with Arrow*/
-.arrow-right {
-    width: 0;
-    height: 0;
-    border-left: 1px solid transparent;
-    border-right: 1px solid transparent;
-    border-bottom: 1px solid transparent;/*
-    border-style: solid;
-    border-width: 8px 0 8px 10px;
-    border-color: transparent transparent transparent #000;*/
-}
-
 /*Footer*/
 footer {
     background-color: #dbd4cb;
@@ -310,9 +299,10 @@ footer {
 }
 
 .footer-width {
-    width: 980px;
+    width: 61.25em;
     margin: auto;
     padding-top: 12em;
+    border-bottom: #000 solid 1px;
 }
 
 .nav-section {
